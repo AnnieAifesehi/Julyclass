@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Mobann Greeting App</h1>
+        <h1>Welcome to the Annie Greeting App</h1>
 	<h2> If you see this, you have successfully completed DevOps 1. Goodluck </h2>
         <label for="name">Please enter your name here: </label>
         <input type="text" id="name" placeholder="Surname Firstname">
