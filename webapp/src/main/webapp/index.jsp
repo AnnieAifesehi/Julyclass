@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1> Welcome to the Annie Greeting App </h1>
-	<h2> If you see this, you have successfully completed DevOps 1 modules. Goodluck </h2>
+	<h2> If you see this, you have successfully completed DevOps 1 modules. Great job </h2>
         <label for="name">Please enter your name here: </label>
         <input type="text" id="the name" placeholder="Surname Firstname">
         <button onclick="displayGreeting()">Show Greeting</button>
