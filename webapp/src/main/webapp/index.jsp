@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Annie's Greeting App</h1>
+        <h1>Welcome to Annie’s Greeting App</h1>
         <h2>If you see this, you have successfully completed DevOps 1 modules. Great job!</h2>
         <h2>Next: Docker for containerization</h2>
         
@@ -22,10 +22,11 @@
 
     <script>
         function displayGreeting() {
-            const name = document.getElementById("name").value;
+            const name = document.getElementById("name").value.trim();
             const greetingElement = document.getElementById("greeting");
-            if (name.trim() !== "") {
-                greetingElement.textContent = `Hello, ${name}! Welcome to Annie's Greeting App.`;
+
+            if (name !== "") {
+                greetingElement.textContent = `Hi ${name}, welcome to Annie’s Greeting App.`;
             } else {
                 greetingElement.textContent = "Please enter your name.";
             }
